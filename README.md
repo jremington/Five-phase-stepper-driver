@@ -32,13 +32,15 @@ For the pentagon wiring option, five half bridge drivers are used. Improved step
 
 **Stepper Driver Design and Construction**
 
-Wiring diagram for two of the phases, using the Pololu DRV8835 dual H bridge module (micro used was the Pro Mini). The complete pin assignments and subsequent connections are detailed in the code below. Image from Pololu product page: 
+Wiring diagram for two of the phases, using the Pololu DRV8835 dual H bridge module (micro used was the Pro Mini).  Image from Pololu product page: 
 
 ![Partial wiring diagram](https://forum.pololu.com/uploads/default/original/2X/2/2d3e2b9c3bdfc6a51cb122b177fbec8df0921917.png)
 
 **FINISHED DRIVER MODULE**
 
 ![Finished 5-phase driver board](https://forum.pololu.com/uploads/default/optimized/2X/a/a757dba4a2396a110fadecf0d8af845cf63d9c08_2_597x500.jpeg)
+
+**The complete pin assignments and subsequent connections are detailed in the posted code.**
 
 **Arduino Code** is posted in two files, totally unoptimized and storage-optimized.
 
