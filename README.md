@@ -36,6 +36,8 @@ Wiring diagram for two of the phases, using the Pololu DRV8835 dual H bridge mod
 
 ![Partial wiring diagram](https://forum.pololu.com/uploads/default/original/2X/2/2d3e2b9c3bdfc6a51cb122b177fbec8df0921917.png)
 
+**FINISHED DRIVER MODULE**
+
 ![Finished 5-phase driver board](https://forum.pololu.com/uploads/default/optimized/2X/a/a757dba4a2396a110fadecf0d8af845cf63d9c08_2_597x500.jpeg)
 
 **Arduino Code** is posted in two files, totally unoptimized and storage-optimized.
