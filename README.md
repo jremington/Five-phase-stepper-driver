@@ -11,10 +11,9 @@ The low current rating and moderate winding resistance means that direct drive f
 See it move 1000 steps in real time!
 
 Vital information below, used as a guide in creating the working example.
-Vital information below, used as a guide in creating the working example.
 
 There is confusion on the web about motor coil and wiring color code with lead assignment. I started with this diagram, which supposedly reveals the coil and winding start/finish order:
-    10wire_pentagon_connection
+    10wire_pentagon_connection 
 
 But the motor connector had white/yellow and grey/black reversed from the sequence above. The driver works with swapped connections (as long as both pairs of the two connections are reversed) but obeying the connector wire order resulted in the smoothest and presumably correct operation. That is, swap white/yellow and black/gray.
 
