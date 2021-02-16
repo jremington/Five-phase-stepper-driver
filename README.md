@@ -10,7 +10,7 @@ The low current rating and moderate winding resistance means that direct drive f
 
 See it move 1000 steps in real time!
 
-![Stepper in action](https://user-images.githubusercontent.com/5509037/108101833-a85dcb80-703c-11eb-8904-4f843a93893b.MP4)
+![Stepper in action (1 minute MP4 video](https://user-images.githubusercontent.com/5509037/108101833-a85dcb80-703c-11eb-8904-4f843a93893b.MP4)
 
 Vital information below, used as a guide in creating the working example.
 
