@@ -12,7 +12,7 @@ See it move 1000 steps in real time!
 
 ![Stepper in action (1 minute MP4 video)](https://user-images.githubusercontent.com/5509037/108101833-a85dcb80-703c-11eb-8904-4f843a93893b.MP4)
 
-Vital information below, used as a guide in creating the working example.
+**Vital information in image below**, used as a guide in creating the working example.
 
 ![10 Wire Sequence](https://user-images.githubusercontent.com/5509037/108101734-7ea4a480-703c-11eb-8b77-20ec248bf927.png)
 
