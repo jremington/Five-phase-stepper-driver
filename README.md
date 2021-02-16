@@ -10,9 +10,11 @@ The low current rating and moderate winding resistance means that direct drive f
 
 See it move 1000 steps in real time!
 
-![Video 1](https://user-images.githubusercontent.com/5509037/108101833-a85dcb80-703c-11eb-8904-4f843a93893b.MP4)
+![Stepper in action](https://user-images.githubusercontent.com/5509037/108101833-a85dcb80-703c-11eb-8904-4f843a93893b.MP4)
 
 Vital information below, used as a guide in creating the working example.
+
+![10 Wire Sequence]
 
 There is confusion on the web about motor coil and wiring color code with lead assignment. I started with this diagram, which supposedly reveals the coil and winding start/finish order:
     10wire_pentagon_connection 
