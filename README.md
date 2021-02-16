@@ -8,11 +8,11 @@ The motor specs: Vexta PX33M-A-C6 0.21A, 33 Ohms per phase, 0.36 degrees/step. T
 
 The low current rating and moderate winding resistance means that direct drive from 5 to 6V is possible, avoiding the need for a chopper stepper driver. I decided to use three Pololu DRV8835 dual full bridge modules (only five H-bridges are used, leaving one free for other uses), and with dead simple code it is capable of executing 500 steps/sec from dead stop, without skipping a single step. Half step drive is available, for 2000 steps/revolution, capable of better than 500 steps/second.
 
-See it move 1000 steps in real time!
+See it move 1000 steps in real time:
 
-![Stepper in action (1 minute MP4 video)](https://user-images.githubusercontent.com/5509037/108101833-a85dcb80-703c-11eb-8904-4f843a93893b.MP4)
+![STEPPER in ACTION (1 minute MP4 video)](https://user-images.githubusercontent.com/5509037/108101833-a85dcb80-703c-11eb-8904-4f843a93893b.MP4)
 
-**Vital information in image below**, used as a guide in creating the working example.
+**Important design information in image below**, used as a guide in creating the working example.
 
 ![10 Wire Sequence](https://user-images.githubusercontent.com/5509037/108101734-7ea4a480-703c-11eb-8b77-20ec248bf927.png)
 
