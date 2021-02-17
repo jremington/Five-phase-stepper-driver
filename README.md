@@ -16,20 +16,24 @@ See it move 1000 steps in real time:
 
 ![10 Wire Sequence](https://user-images.githubusercontent.com/5509037/108101734-7ea4a480-703c-11eb-8b77-20ec248bf927.png)
 
-There is confusion on the web about motor coil and wiring color code with lead assignment. I started with this diagram, which supposedly reveals the coil and winding start/finish order:
-
-![10wire_pentagon_connection](https://user-images.githubusercontent.com/5509037/108101765-8c5a2a00-703c-11eb-8ffc-eda13e6816d4.png)
-
-But the motor connector had white/yellow and grey/black reversed from the sequence above. The driver works with swapped connections (as long as both pairs of the two connections are reversed) but obeying the connector wire order resulted in the smoothest and presumably correct operation. That is, swap white/yellow and black/gray.
-
-My decision to swap those leads is supported by the alternative assignment of wire colors and winding identifications in the PDF file below. Evidently Oriental Motor is not consistent with wire color codes. 
-
-![5_Phase_Penta_Connection.pdf (44.9 KB)](https://github.com/jremington/Five-phase-stepper-driver/files/5990560/5_Phase_Penta_Connection.pdf)
-
-For the pentagon wiring option, five half bridge drivers are used. Improved step sequences for the pentagon connection are shown in the PDF file below from Oriental Motor.
+Improved step sequences for the pentagon connection are shown in the PDF file below from Oriental Motor.
 
 ![10wire_pentagon_connection (pdf)](https://github.com/jremington/Five-phase-stepper-driver/files/5990584/vexta_pentagon_phase_sequence.pdf)
 
+
+**MOTOR COIL LEAD IDENTIFICATION** 
+
+I was not able to find a data sheet for this particular motor, but the windings on Vexta motors appear to obey a semi-consistent color code and lead assignment. There is nevertheless some confusion in available documentation. I started with this diagram, which supposedly reveals the coil and winding start/finish order:
+
+![10wire_pentagon_connection](https://user-images.githubusercontent.com/5509037/108101765-8c5a2a00-703c-11eb-8ffc-eda13e6816d4.png)
+
+But the motor connector on the original apparatus had white/yellow and grey/black reversed from the sequence above. The driver I put together works with the two problematic connections swapped (as long as both pairs of the two connections are reversed) but obeying the **connector** wire order resulted in the smoothest and presumably correct operation. That is, swap white/yellow and black/gray.
+
+My decision to swap those leads is supported by the alternative assignment of wire colors and winding identifications in the PDF file below. Evidently Oriental Motor is not completely consistent with wire color codes. 
+
+![5_Phase_Penta_Connection.pdf (44.9 KB)](https://github.com/jremington/Five-phase-stepper-driver/files/5990560/5_Phase_Penta_Connection.pdf)
+
+For the pentagon wiring option, five half bridge drivers are used. 
 **Stepper Driver Design and Construction**
 
 Wiring diagram for two of the phases, using the Pololu DRV8835 dual H bridge module (micro used was the Pro Mini).  Image from Pololu product page: 
