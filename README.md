@@ -34,6 +34,7 @@ My decision to swap those leads is supported by the alternative assignment of wi
 ![5_Phase_Penta_Connection.pdf (44.9 KB)](https://github.com/jremington/Five-phase-stepper-driver/files/5990560/5_Phase_Penta_Connection.pdf)
 
 For the pentagon wiring option, five half bridge drivers are used. 
+
 **Stepper Driver Design and Construction**
 
 Wiring diagram for two of the phases, using the Pololu DRV8835 dual H bridge module (micro used was the Pro Mini).  Image from Pololu product page: 
